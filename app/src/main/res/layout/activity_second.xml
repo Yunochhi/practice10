@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60D394"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text11"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="18sp"
+            android:text="@string/name11"
+            android:textColor="#FFFFFFFF"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/avatar"
+            android:layout_width="56sp"
+            android:layout_height="56sp"
+            android:layout_marginTop="16sp"
+            android:background="@drawable/avatar1"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="519dp">
+
+        <TextView
+            android:id="@+id/text22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="30sp"
+            android:text="@string/name22"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/text22"
+            tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/text33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:layout_marginTop="120sp"
+            android:text="@string/name33"
+            android:textColor="@color/white"
+            android:textSize="45sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="135sp"
+            android:layout_toEndOf="@+id/text33"
+            tools:ignore="UseSwitchCompatOrMaterialXml,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/alarmAdd"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="50sp"
+            android:layout_marginBottom="50dp"
+            android:background="#AAF482"
+            android:text="@string/addAlarm"
+            android:textColor="@color/gray"
+            tools:ignore="TextContrastCheck" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/menu_list"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="25sp"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/list1"
+            android:contentDescription="@string/menu_name1"
+            android:textColorLink="#93E865" />
+
+        <Button
+            android:id="@+id/menu_alarm"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="90sp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/alarm1"
+            android:backgroundTint="@color/btn_active"
+            android:contentDescription="@string/menu_name2" />
+
+        <Button
+            android:id="@+id/menu_calendar"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="155sp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/calendar1"
+            android:contentDescription="@string/menu_name3" />
+
+        <Button
+            android:id="@+id/menu_settings"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="215sp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/settings1"
+            android:contentDescription="@string/menu_name4" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle1"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/menu_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/menu_name1"
+                android:textColor="#ff8585"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/menu_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="89dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/menu_name2"
+                android:textColor="@color/btn_active"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/menu_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="154dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/menu_name3"
+                android:textColor="#ff8585"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+            <TextView
+                android:id="@+id/menu_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="214dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/menu_name4"
+                android:textColor="#ff8585"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
